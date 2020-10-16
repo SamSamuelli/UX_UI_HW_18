@@ -46,7 +46,6 @@ body{
       height: 500px;
       margin-left: 200px;
       margin-top: 60px;
-      position: absolute;
   }
   .headerText{
       float: right;
@@ -73,30 +72,71 @@ body{
       margin-top: 150px;
       margin-top: 150px;
   }
-  .h1{
+  h1{
     font-size: 60px;
+    font-family: din-condensed, sans-serif;
     color: #756653;
+  }
+  h2{
+    font-size: 40px;
+    font-family: din-condensed, sans-serif;
+    color: #23231E;
+  }
+  h3{
+    font-size: 30px;
+    font-family: din-condensed, sans-serif;
+    color: #756653;
+  }
+  h4{
+    font-size: 20px;
+    font-family: din-condensed, sans-serif;
+    color: #23231E;
   }
   .about p{
     font-size: 15px;
     font-family: proxima-nova, sans-serif;
     color: #23231E;
   }
-  .skills {
+  .containerSkills {
+      align-items: center;
       background-color: #D2C8BE;
       width: 100%;
-      margin-top: 50px;
-      height: 200px;
+      margin-top: auto;
+      height: 300px;
+  }
+  .skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
   }
   .skills img{
-      margin-top: 18px;
+    align-items: center;
   }
   .skills p{
       font-family: proxima-nova, sans-serif;
       color: #23231E;
       font-size: 15px;
       line-height: 5px;
+      text-align: center;
   }
+  .work {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+    height: 200px;
+}
+  .work p{
+    display: flex;
+    font-family: proxima-nova, sans-serif;
+    color: #23231E;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+}
 
 
 
@@ -127,10 +167,10 @@ body{
 }
 @media only screen and (max-width : 600px) {
     .header{
-
       }
     .header img{
-
+      height: 500px;
+      margin: 0;
       }
     .headerText{
 
