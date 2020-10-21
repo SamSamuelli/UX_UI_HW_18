@@ -179,6 +179,21 @@ body{
   .containerWork h1{
     margin-left: 205px;
   }
+  .learnButton {
+    background-color: #866552;
+    border: none;
+    width: 120pt;
+    color: #F5F5F5;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 4px;
+    font-family: din condensed, sans-serif;
+    cursor: pointer;
+    border-radius: 30px;
+  }
   .row {
     display: flex;
   }
