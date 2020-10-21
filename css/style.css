@@ -238,9 +238,11 @@ body{
   #roamingChef {
     grid-area: roamingChef;
     background-image: url(../Images/roaming\ chef.png);
+    cursor: pointer;
   }
   #comingSoon{
     grid-area: comingSoon;
+    cursor: pointer;
   }
   #comingSoon img {
     height: 250px;
@@ -249,9 +251,11 @@ body{
   #dhs {
     grid-area: dhs;
     background-image: url(../Images/dhs-tile.png);
+    cursor: pointer;
   }
   #globetrotter {
     grid-area: globetrotter;
+    cursor: pointer;
   }
   #globetrotter img {
     height: 250px;
