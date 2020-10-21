@@ -145,6 +145,7 @@ body{
   }
   .skills{
     display: flex;
+    vertical-align: text-top;
     justify-content: space-between;
     margin-left: 205px;
     margin-right: 200px;
@@ -225,7 +226,10 @@ body{
   }
   #comingSoon{
     grid-area: comingSoon;
-    background-image: url(../Images/coming-soon-tile.png);
+  }
+  #comingSoon img {
+    height: 250px;
+    width: 350px;
   }
   #dhs {
     grid-area: dhs;
@@ -233,11 +237,14 @@ body{
   }
   #globetrotter {
     grid-area: globetrotter;
-    background-image: url(../Images/globetrotter-tile.png);
+  }
+  #globetrotter img {
+    height: 250px;
+    width: 350px;
   }
   .containerFooter {
     width: 100%;
-    height: 100px;
+    height: 130px;
     background-color: #23231E;
     background-size: cover;
   }
@@ -245,7 +252,8 @@ body{
     color: #D2C8BE;
     text-align: center;
     justify-content: center;
-    margin-top: 80px;
+    padding-top: 20px;
+
   }
 
 
